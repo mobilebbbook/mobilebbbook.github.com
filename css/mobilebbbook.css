@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Print Clearly';
+    src: url('/fonts/print_clearly_tt-webfont.eot');
+    src: url('/fonts/print_clearly_tt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/print_clearly_tt-webfont.svg#print_clearlyregular') format('svg'),
+         url('/fonts/print_clearly_tt-webfont.woff') format('woff'),
+         url('/fonts/print_clearly_tt-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Print Clearly';
+    src: url('/fonts/print_bold_tt-webfont.eot');
+    src: url('/fonts/print_bold_tt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/print_bold_tt-webfont.svg#print_boldregular') format('svg'),
+         url('/fonts/print_bold_tt-webfont.woff') format('woff'),
+         url('/fonts/print_bold_tt-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+html, body {
+  font-family: sans-serif;
+}
+
+body {
+  padding-top: 32px;
+  background-color: #f8f8f8;
+}
+
+.headline img, .headline h1 {
+}
+
+.headline h1 {
+  font-family: "Print Clearly", sans-serif;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 80px;
+  margin-top: 16px;
+  text-align: center;
+}
+
+.headline h2 {
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.buy {
+  text-align: center;
+  margin: 40px 0 60px;
+}
+
+.media {
+  margin-bottom: 60px;
+}
+
+.media .media-object-container {
+  float: left;
+}
+
+.media.right .media-object-container {
+  float: right;
+}
+
+.media p {
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.btn-xlarge {
+  font-size: 24px;
+  padding: 18px 28px;
+}

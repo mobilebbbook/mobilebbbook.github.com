@@ -2,30 +2,109 @@
 <html>
   <head>
     <title>Mobile Web Development with Backbone.js Book</title>
-    <meta name="viewport" content="width=device-width">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <style>
-      html, body {
-        background-color: #142433;
-        margin: 0;
-        padding: 0;
-        font-family: "Open Sans", sans-serif;
-      }
-      html, body, a {
-        color: white;
-      }
-      body {
-        padding: 10px 20px;
-        text-align: center;
-        width: 400px;
-        margin: auto;
-      }
-    </style>
+    <meta name="viewport" content="width=device-width, min-width=780">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-responsive.css">
+    <link rel="stylesheet" type="text/css" href="/css/mobilebbbook.css">
   </head>
   <body>
-    <img width=333 height=461 src='/cover.png' alt="Mobile Web Patterns with Backbone.js">
-    <h2>Coming December 2012</h2>
-    <p>Mobile Web Patterns with Backbone.js is an e-book by <a href="http://ngauthier.com">Nick Gauthier</a> containing 12 common design patterns for mobile web application development</p>
+    <div class='container'>
+      <div class="headline media">
+        <div class="pull-left">
+          <img width=250 height=250 src='/img/3d-book-cover-500x500.png' alt="Mobile Web Patterns with Backbone.js" class="media-object">
+        </div>
+        <div class="media-body">
+          <h1 class="media-heading">Mobile Web Patterns<br>with Backbone.js</h1>
+          <h2>by <a href="http://ngauthier.com">Nick Gauthier</a></h2>
+        </div>
+      </div>
+
+      <div class="buy">
+        <a href="#" class="btn btn-xlarge btn-success disabled" onclick='alert("sorry, we&lsquo;re still setting up and we&lsquo;re not ready to take orders yet!");'>Buy for $29</a>
+      </div>
+
+      <div class="media">
+        <div class="media-object-container">
+          <img width=250 height=250 alt="image" src="/img/patterns.png" class="media-object">
+        </div>
+        <div class="media-body">
+          <h2 class="media-heading">Patterns</h2>
+          <p>
+            This e-book contains 13 patterns, solving a real problem that Backbone.js developers face while creating web applications. By dividing a web application into a collection of patterns, it's easy to read about a specific pattern in isolation, or read them all from front to back to understand how to build your entire application.
+          </p>
+          <p>
+            Some of the patterns have been extracted into re-usable mixins, while others are shown implemented in example scenarios. It's clear to see how each pattern is applied, and in some cases the mixins can be copied and pasted directly from the book.
+          </p>
+        </div>
+      </div>
+
+      <div class="media right">
+        <div class="media-object-container">
+          <img width=250 height=250 alt="image" src="/img/coffeescript.png" class="media-object">
+        </div>
+        <div class="media-body">
+          <h2 class="media-heading">CoffeeScript</h2>
+          <p>
+            All the code in this book is written in CoffeeScript. CoffeeScript is a wonderful language that makes code much easier to understand and read, which makes it perfect for an e-book. It is also a very powerful abstraction over JavaScript, and many of its features make working with Backbone.js much easier.
+          </p>
+          <p>
+            If you don't know CoffeeScript, don't worry: most of the differences you'll see are pretty straightforward, and you can look up the tougher differences in their online documentation.
+          </p>
+        </div>
+      </div>
+
+      <div class="media">
+        <div class="media-object-container">
+          <img width=250 height=250 alt="image" src="/img/jasmine.png" class="media-object">
+        </div>
+        <div class="media-body">
+          <h2 class="media-heading">Test-Driven</h2>
+          <p>
+            Every chapter's code is not only tested, it's test driven. We will start each chapter with a problem that we're trying to solve. Next, we'll write a test that expresses the end-goal of the pattern. Then, we will iterate our solution until we pass our test. Often, we take it another step and write more tests to describe a superior behavior or style, and then iterate again on our solution.
+          </p>
+          <p>
+            Test-Driven Development is not only a great way to write code, it's also a great way to teach it. Test-Driven Development naturally presents the problem before the solution, creating a unique teaching experience.
+          </p>
+        </div>
+      </div>
+
+      <div class="media right">
+        <div class="media-object-container">
+          <img width=250 height=250 alt="image" src="/img/mobile.png" class="media-object">
+        </div>
+        <div class="media-body">
+          <h2 class="media-heading">Mobile Focus</h2>
+          <p>
+            This book has a mobile focus because most of the patterns were extracted from real applications targeted at mobile devices. That means these patterns are designed to tackle issues like high latency, low cpu, and low bandwidth environments. However all of these patterns are not mobile-specific, because being fast and responsive is just important on a desktop application.
+          </p>
+          <p>
+            We won't be covering mobile-specific tactics like responsive design. This is a book about Backbone.js code, not HTML and CSS.
+          </p>
+        </div>
+      </div>
+
+      <div class="media">
+        <div class="media-object-container">
+          <img width=250 height=250 alt="image" src="/img/source.png" class="media-object">
+        </div>
+        <div class="media-body">
+          <h2 class="media-heading">Full Source Code</h2>
+          <p>
+            All the source code in the book is available as part of your download. That means it's easy to copy the example code from the book, as well as the mixins, into your code base. 
+          </p>
+          <p>
+          Additionally, the build-system used to run all the tests in the book is part of the source code. So if you'd like to modify a solution or a test and see if it works, it's easy to do.
+          </p>
+        </div>
+      </div>
+
+      <div class="buy">
+        <a href="#" class="btn btn-xlarge btn-success disabled" onclick='alert("sorry, we&lsquo;re still setting up and we&lsquo;re not ready to take orders yet!");'>Buy for $29</a>
+        <br>
+        or <a href="/sample.pdf">Download a Sample</a>
+      </div>
+    </div>
+
 
     <script type="text/javascript">
       var _gaq = _gaq || [];
@@ -36,7 +115,6 @@
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
-
     </script>
   </body>
 </html>
