@@ -28,17 +28,21 @@ html, body {
 
 body {
   padding-top: 32px;
+  padding-bottom: 60px;
   background-color: #f8f8f8;
 }
 
-.headline img, .headline h1 {
+hr {
+  border: 0;
+  border-top: 1px solid #e0e0e0;
+  margin: 30px;
 }
 
 .headline h1 {
   font-family: "Print Clearly", sans-serif;
   font-weight: bold;
   font-size: 56px;
-  line-height: 80px;
+  line-height: 56px;
   margin-top: 16px;
   text-align: center;
 }
@@ -52,11 +56,7 @@ body {
 
 .buy {
   text-align: center;
-  margin: 40px 0 60px;
-}
-
-.media {
-  margin-bottom: 60px;
+  margin: 20px 0 20px;
 }
 
 .media .media-object-container {
@@ -76,3 +76,4 @@ body {
   font-size: 24px;
   padding: 18px 28px;
 }
+
