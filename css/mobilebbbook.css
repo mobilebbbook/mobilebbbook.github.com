@@ -38,6 +38,26 @@ hr {
   margin: 30px;
 }
 
+.container {
+  position: relative;
+}
+
+.social {
+  position: absolute;
+  top: -10px;
+  right: 0;
+  text-align: right;
+}
+
+.social-thanks iframe {
+  vertical-align: middle;
+}
+
+.thanks-headline {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
 .headline h1 {
   font-family: "Print Clearly", sans-serif;
   font-weight: bold;
