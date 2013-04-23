@@ -7,19 +7,6 @@ Mobile Web Development with Backbone.js Web Site
 Mobile and desktop web application patterns written in CoffeeScript and test-driven with Jasmine.js
 
 
-## Points
+## Jekyll
 
-### Test-Driven with Jasmine
-
-### CoffeeScript
-
-### Mobile Focus
-
-### Extracted from Real Applications
-
-
-## Table of Contents
-
-## Sample
-
-## About the Author
+    jekyll --pygments --no-lsi --safe
